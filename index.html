@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio website for Lois Coutinho, Mumbai-based wedding, event, couple, family, and corporate photographer.">
+    <title>The Pixel & Lens Co. | Lois Coutinho</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="#top">
+        <span>The Pixel & Lens Co.</span>
+        <small>Lois Coutinho</small>
+      </a>
+      <nav class="nav-links" aria-label="Site">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Mumbai based photographer</p>
+          <h1 id="hero-title">The Pixel & Lens Co.</h1>
+          <p class="hero-lede">Professional wedding, event, couple, family, and corporate photography by Lois Coutinho.</p>
+          <p class="hero-line">Where every shadow tells a story and every color comes to life.</p>
+          <div class="hero-actions" aria-label="Featured actions">
+            <a class="button button-primary" href="#work">View Work</a>
+            <a class="button button-secondary" href="https://www.behance.net/loismelroycoutinho" target="_blank" rel="noreferrer">Behance Portfolio</a>
+            <a class="button button-ghost" href="mailto:loismelroycoutinho@gmail.com">Book a Shoot</a>
+          </div>
+        </div>
+        <dl class="hero-facts" aria-label="Portfolio highlights">
+          <div>
+            <dt>Base</dt>
+            <dd>Mumbai, India</dd>
+          </div>
+          <div>
+            <dt>Focus</dt>
+            <dd>Weddings, events, portraits</dd>
+          </div>
+          <div>
+            <dt>Craft</dt>
+            <dd>Lighting, composition, retouching</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="intro section-band">
+        <div class="intro-copy">
+          <p class="section-kicker">Portfolio</p>
+          <h2>Emotion-led images with polished production.</h2>
+          <p>Lois works across intimate ceremonies, staged portraits, live events, cruise experiences, and marketing-led media. The visual language is bright, direct, and client-centered, with careful attention to lighting and final image delivery.</p>
+        </div>
+        <figure class="intro-image">
+          <img src="assets/feature-couple.jpg" alt="Couple sitting together in a blue boat on a beach" width="1500" height="1044">
+        </figure>
+      </section>
+
+      <section id="services" class="services">
+        <div class="section-heading">
+          <p class="section-kicker">Services</p>
+          <h2>Built for personal milestones and professional events.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-item">
+            <h3>Weddings</h3>
+            <p>Bridal portraits, ceremony coverage, family formals, couple sessions, and full event storytelling.</p>
+          </article>
+          <article class="service-item">
+            <h3>Events</h3>
+            <p>Corporate gatherings, celebrations, retirement parties, live broadcasts, and hybrid presentations.</p>
+          </article>
+          <article class="service-item">
+            <h3>Couples & Families</h3>
+            <p>Pre-wedding, maternity, family, travel, and vacation portraits with natural direction.</p>
+          </article>
+          <article class="service-item">
+            <h3>Post-production</h3>
+            <p>Lightroom and Photoshop editing, color grading, retouching, and quick-turnaround delivery.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="work">
+        <div class="work-head">
+          <div>
+            <p class="section-kicker">Selected Work</p>
+            <h2>Weddings, portraits, travel, and event stories.</h2>
+          </div>
+          <div class="filter-group" aria-label="Filter gallery">
+            <button class="filter-button is-active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="wedding">Weddings</button>
+            <button class="filter-button" type="button" data-filter="couple">Couples</button>
+            <button class="filter-button" type="button" data-filter="event">Events</button>
+            <button class="filter-button" type="button" data-filter="portrait">Portraits</button>
+            <button class="filter-button" type="button" data-filter="travel">Travel</button>
+          </div>
+        </div>
+
+        <div class="gallery" aria-live="polite">
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-02.jpg" data-caption="Seaside couple session">
+              <img src="assets/gallery/page-02.jpg" alt="Couple sitting in a blue boat on a beach" width="1584" height="1102" loading="lazy">
+            </button>
+            <figcaption>Seaside couple session</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-03.jpg" data-caption="Quiet shoreline portrait">
+              <img src="assets/gallery/page-03.jpg" alt="Couple resting on a bright blue shoreline" width="1584" height="1102" loading="lazy">
+            </button>
+            <figcaption>Quiet shoreline portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="wedding portrait">
+            <button type="button" data-full="assets/gallery/page-04.jpg" data-caption="Bridal party portrait">
+              <img src="assets/gallery/page-04.jpg" alt="Bride standing with bridesmaids and groomsmen outdoors" width="1267" height="1070" loading="lazy">
+            </button>
+            <figcaption>Bridal party portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="wedding">
+            <button type="button" data-full="assets/gallery/page-05.jpg" data-caption="Chapel wedding portrait">
+              <img src="assets/gallery/page-05.jpg" alt="Wedding couple standing outside a small chapel" width="1584" height="1104" loading="lazy">
+            </button>
+            <figcaption>Chapel wedding portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="wedding portrait">
+            <button type="button" data-full="assets/gallery/page-06.jpg" data-caption="Wedding ceremony portraits">
+              <img src="assets/gallery/page-06.jpg" alt="Wedding couple portraits inside a church and reception setting" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Wedding ceremony portraits</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-07.jpg" data-caption="Shoreline proposal session">
+              <img src="assets/gallery/page-07.jpg" alt="Couple posing near clear blue sea" width="1584" height="1106" loading="lazy">
+            </button>
+            <figcaption>Shoreline proposal session</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-08.jpg" data-caption="Island couple portrait">
+              <img src="assets/gallery/page-08.jpg" alt="Couple photographed beside turquoise water" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Island couple portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="event couple">
+            <button type="button" data-full="assets/gallery/page-09.jpg" data-caption="Celebration portrait">
+              <img src="assets/gallery/page-09.jpg" alt="Couple dancing in front of a casino entrance" width="1584" height="1104" loading="lazy">
+            </button>
+            <figcaption>Celebration portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple portrait">
+            <button type="button" data-full="assets/gallery/page-10.jpg" data-caption="Couple corridor portrait">
+              <img src="assets/gallery/page-10.jpg" alt="Couple holding hands in a warm indoor hallway" width="1584" height="1104" loading="lazy">
+            </button>
+            <figcaption>Couple corridor portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-11.jpg" data-caption="Sunset silhouettes">
+              <img src="assets/gallery/page-11.jpg" alt="Two romantic silhouette portraits at sunset" width="1584" height="1099" loading="lazy">
+            </button>
+            <figcaption>Sunset silhouettes</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="wedding">
+            <button type="button" data-full="assets/gallery/page-12.jpg" data-caption="Ceremony vows">
+              <img src="assets/gallery/page-12.jpg" alt="Groom kneeling before bride during wedding ceremony" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Ceremony vows</figcaption>
+          </figure>
+          <figure class="gallery-item featured" data-category="wedding portrait">
+            <button type="button" data-full="assets/gallery/page-13.jpg" data-caption="Bridal mirror portrait">
+              <img src="assets/gallery/page-13.jpg" alt="Bride seen through a mirror in dramatic warm light" width="1584" height="1104" loading="lazy">
+            </button>
+            <figcaption>Bridal mirror portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="family travel">
+            <button type="button" data-full="assets/gallery/page-14.jpg" data-caption="Family vacation portrait">
+              <img src="assets/gallery/page-14.jpg" alt="Family seated together in a blue boat on a beach" width="1584" height="1142" loading="lazy">
+            </button>
+            <figcaption>Family vacation portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-15.jpg" data-caption="Sea-view celebration">
+              <img src="assets/gallery/page-15.jpg" alt="Couple raising glasses on a deck overlooking the sea" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Sea-view celebration</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="wedding portrait">
+            <button type="button" data-full="assets/gallery/page-16.jpg" data-caption="Wedding party portrait">
+              <img src="assets/gallery/page-16.jpg" alt="Bride and groom with wedding party in magenta dresses" width="1584" height="1104" loading="lazy">
+            </button>
+            <figcaption>Wedding party portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="portrait family">
+            <button type="button" data-full="assets/gallery/page-17.jpg" data-caption="Maternity portrait">
+              <img src="assets/gallery/page-17.jpg" alt="Expecting couple smiling outdoors" width="1584" height="1104" loading="lazy">
+            </button>
+            <figcaption>Maternity portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-18.jpg" data-caption="Cruise-deck couple portrait">
+              <img src="assets/gallery/page-18.jpg" alt="Couple posing together on a cruise deck over blue water" width="1584" height="1102" loading="lazy">
+            </button>
+            <figcaption>Cruise-deck couple portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple portrait">
+            <button type="button" data-full="assets/gallery/page-19.jpg" data-caption="Casual couple session">
+              <img src="assets/gallery/page-19.jpg" alt="Couple sitting together on a patterned floor" width="1584" height="1146" loading="lazy">
+            </button>
+            <figcaption>Casual couple session</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-20.jpg" data-caption="Cruise portrait">
+              <img src="assets/gallery/page-20.jpg" alt="Couple posing on a cruise ship deck" width="1584" height="1104" loading="lazy">
+            </button>
+            <figcaption>Cruise portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="portrait travel">
+            <button type="button" data-full="assets/gallery/page-21.jpg" data-caption="Travel portrait">
+              <img src="assets/gallery/page-21.jpg" alt="Man posing on a cruise deck beside the ocean" width="1584" height="1104" loading="lazy">
+            </button>
+            <figcaption>Travel portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-22.jpg" data-caption="Golden-hour couple portrait">
+              <img src="assets/gallery/page-22.jpg" alt="Couple smiling in warm light near the sea" width="1584" height="1126" loading="lazy">
+            </button>
+            <figcaption>Golden-hour couple portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="couple travel">
+            <button type="button" data-full="assets/gallery/page-23.jpg" data-caption="Deck couple session">
+              <img src="assets/gallery/page-23.jpg" alt="Couple interacting on a ship deck" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Deck couple session</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="portrait travel">
+            <button type="button" data-full="assets/gallery/page-24.jpg" data-caption="Beach portrait">
+              <img src="assets/gallery/page-24.jpg" alt="Woman posing on a bright beach" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Beach portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="family portrait travel">
+            <button type="button" data-full="assets/gallery/page-25.jpg" data-caption="Maternity moment">
+              <img src="assets/gallery/page-25.jpg" alt="Expecting couple photographed on a ship deck" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Maternity moment</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="wedding portrait">
+            <button type="button" data-full="assets/gallery/page-26.jpg" data-caption="Groom portraits">
+              <img src="assets/gallery/page-26.jpg" alt="Two formal groom portraits in blue suit" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Groom portraits</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="wedding portrait">
+            <button type="button" data-full="assets/gallery/page-27.jpg" data-caption="Groomsmen portraits">
+              <img src="assets/gallery/page-27.jpg" alt="Three groomsmen portraits outdoors" width="1584" height="1016" loading="lazy">
+            </button>
+            <figcaption>Groomsmen portraits</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="wedding portrait">
+            <button type="button" data-full="assets/gallery/page-28.jpg" data-caption="Formal group portrait">
+              <img src="assets/gallery/page-28.jpg" alt="Three men in formal suits posing together" width="1584" height="1126" loading="lazy">
+            </button>
+            <figcaption>Formal group portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="event">
+            <button type="button" data-full="assets/gallery/page-29.jpg" data-caption="Retirement event detail">
+              <img src="assets/gallery/page-29.jpg" alt="Happy retirement event signage with guest portrait" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Retirement event detail</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="event family">
+            <button type="button" data-full="assets/gallery/page-30.jpg" data-caption="Event decor and family">
+              <img src="assets/gallery/page-30.jpg" alt="Event decor and family portraits from a celebration" width="1582" height="1224" loading="lazy">
+            </button>
+            <figcaption>Event decor and family</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="event family portrait">
+            <button type="button" data-full="assets/gallery/page-31.jpg" data-caption="Retirement family portrait">
+              <img src="assets/gallery/page-31.jpg" alt="Family posing together at a retirement celebration" width="1584" height="1094" loading="lazy">
+            </button>
+            <figcaption>Retirement family portrait</figcaption>
+          </figure>
+          <figure class="gallery-item" data-category="event family portrait">
+            <button type="button" data-full="assets/gallery/page-32.jpg" data-caption="Event guest portraits">
+              <img src="assets/gallery/page-32.jpg" alt="Guest portraits from a family celebration" width="1584" height="1224" loading="lazy">
+            </button>
+            <figcaption>Event guest portraits</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="behance-callout section-band" aria-labelledby="behance-title">
+        <div>
+          <p class="section-kicker">Featured External Project</p>
+          <h2 id="behance-title">Nature's Photography</h2>
+          <p>A linked Behance project for nature-focused photography, included alongside the core wedding and event portfolio.</p>
+        </div>
+        <a class="button button-dark" href="https://www.behance.net/loismelroycoutinho" target="_blank" rel="noreferrer">Open Behance Portfolio</a>
+      </section>
+
+      <section id="experience" class="experience">
+        <div class="section-heading">
+          <p class="section-kicker">Experience</p>
+          <h2>Production experience from studio floors to live events.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>Jan 2025 - Present</span>
+            <h3>Photographer, Image Creator</h3>
+            <p>Portraiture and event photography across DSLR and mirrorless systems, live shoot direction, client service, and polished delivery.</p>
+          </article>
+          <article>
+            <span>Jan 2025 - Present</span>
+            <h3>Photographer, Live Video Solution</h3>
+            <p>Live broadcasts, event coverage, real estate visuals, social content, promotional media, and post-production workflows.</p>
+          </article>
+          <article>
+            <span>Sep 2021 - Dec 2024</span>
+            <h3>Senior Photographer, Sumit Photo Studio</h3>
+            <p>Weddings, portraits, corporate events, concerts, and cruise experiences, including client planning and social media portfolio growth.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="contact-copy">
+          <p class="section-kicker">Contact</p>
+          <h2>Book wedding, event, portrait, or corporate coverage in Mumbai and beyond.</h2>
+          <p>Available for on-location shoots, live event coverage, travel sessions, and fast-paced post-production delivery.</p>
+        </div>
+        <address class="contact-list">
+          <a href="mailto:loismelroycoutinho@gmail.com">loismelroycoutinho@gmail.com</a>
+          <a href="tel:+919021869156">+91 90218 69156</a>
+          <span>Mumbai, India</span>
+        </address>
+        <div class="download-links">
+          <a class="button button-secondary" href="assets/docs/lois-coutinho-resume.pdf">Download Resume</a>
+          <a class="button button-ghost light" href="assets/docs/lois-photo-portfolio.pdf">Download Portfolio PDF</a>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="lightbox" aria-label="Expanded photograph">
+      <button class="lightbox-close" type="button" aria-label="Close">Close</button>
+      <img src="assets/gallery/page-02.jpg" alt="">
+      <p></p>
+    </dialog>
+
+    <footer class="site-footer">
+      <p>The Pixel & Lens Co. / Lois Coutinho</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
